@@ -1,4 +1,20 @@
+body, html {
+    height: 100%;
+  }
+
+  @keyframes transitionIn {
+    from {background-position: left;}
+    to {background-position: -20px;}
+}
+
 .background {
-    background-image: url("../pics/ssa.jpeg");
+    animation: transitionIn 10s;
+    background-image: url("../pics/ssa.png");
+    background-position: -30px;
     height: 100%;
     }
+
+    .oba {
+        height: 80%;
+    }
+
