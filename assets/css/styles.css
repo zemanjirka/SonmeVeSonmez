@@ -10,6 +10,21 @@ body, html {
 
 .nav-link {
     color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+     color: grey; 
+     background-color: #fff;
+}
+
+.telephone{
+    color: #000;
+}
+.active {
+    text-decoration: underline;
+    color: black;
+    background: none;
 }
 
 .background {
