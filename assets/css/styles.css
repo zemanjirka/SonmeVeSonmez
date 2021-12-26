@@ -1,14 +1,19 @@
 body, html {
     height: 100%;
+    padding: 20px;
   }
 
   @keyframes transitionIn {
     from {background-position: left;}
-    to {background-position: -20px;}
+    to {background-position: -30px;}
+}
+
+.nav-link {
+    color: gray;
 }
 
 .background {
-    animation: transitionIn 10s;
+    animation: transitionIn 20s;
     background-image: url("../pics/ssa.png");
     background-position: -30px;
     height: 100%;
@@ -17,4 +22,22 @@ body, html {
     .oba {
         height: 80%;
     }
+.vsechno {
+    height: 100%;
+}
+.vlevo {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    /* box-shadow: 0 0 10px 5px #ffffff; */
+}
 
+.klogu {
+    height: 100%;
+}
+
+.logo {
+    background-image: url("../pics/logo_na_web.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
