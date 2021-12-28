@@ -62,13 +62,14 @@ body, html {
 
 .logo {
     background-image: url("../pics/logo_na_web.png");
-    background-size: 50%;
+    background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
+    background-position-y: 10%;
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 574px) {
     .vpravo {
       display: none;
     }
