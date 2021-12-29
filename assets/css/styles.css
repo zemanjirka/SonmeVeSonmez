@@ -40,12 +40,13 @@ body, html {
     background-position: -30px;
     height: 100%;
     }
-    
+
 .pozadiknizky {
     animation: transitionIn 20s;
-    background-image: url("../pics/knizky.png");
+    background-image: url("../pics/knizky5.png");
     background-position: -30px;
     height: 100%;
+    background-size: cover;
     }
 
 .oba {
@@ -66,12 +67,41 @@ body, html {
     height: 100%;
 }
 
+.kloguHakkimizda {
+    height: 20%;
+}
+
 .logo {
     background-image: url("../pics/logo_na_web.png");
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
-    background-position-y: 10%;
+    background-position-y: 15%;
+}
+
+.logoHakkimizda {
+    background-image: url("../pics/logo_na_web.png");
+    background-size:20%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding-top: 10%;
+}
+
+.textHakkimizda {
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.nadpis {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 2px;
+    
 }
 
 .kontaktujtenas {
