@@ -43,8 +43,8 @@ body, html {
 
 .pozadiknizky {
     animation: transitionIn 20s;
-    background-image: url("../pics/knizky5.png");
-    background-position: -30px;
+    background-image: url("../pics/knizky12.png");
+    background-position: -50px;
     height: 100%;
     background-size: cover;
     }
