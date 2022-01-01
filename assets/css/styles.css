@@ -43,10 +43,20 @@ body, html {
 
 .pozadiknizky {
     animation: transitionIn 20s;
-    background-image: url("../pics/knizky12.png");
-    background-position: -50px;
+    background-image: url("../pics/knizky14.png");
+    background-position: -30px;
     height: 100%;
     background-size: cover;
+    }
+
+.pozadiReferanslar {
+    animation: transitionIn 20s;
+    background-image: url("../pics/reference5.png");
+    height: 100%;
+    background-size: cover;
+    background-position: -30px;
+    background-attachment: fixed;
+    
     }
 
 .oba {
@@ -57,9 +67,23 @@ body, html {
     height: 100%;
 }
 
+.vsechnoReferanslar {
+    height: 100%;
+}
+
+.pozadiTextReferanslar {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
 .vlevo {
     background-color: rgb(255, 255, 255);
     opacity: 0.8;
+    /* box-shadow: 0 0 5px 2px #ffffff;  */
+}
+
+.vlevoHakkimizda {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
     /* box-shadow: 0 0 5px 2px #ffffff;  */
 }
 
@@ -70,6 +94,7 @@ body, html {
 .kloguHakkimizda {
     height: 20%;
 }
+
 
 .logo {
     background-image: url("../pics/logo_na_web.png");
@@ -84,24 +109,49 @@ body, html {
     background-size:20%;
     background-repeat: no-repeat;
     background-position: center;
-
     padding-top: 10%;
+}
+
+.logoReferanslar {
+    background-image: url("../pics/logo_na_web.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 2%;
+
 }
 
 .textHakkimizda {
     color: gray;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
     padding-bottom: 5%;
+    text-align: justify;
+}
+
+.textReferanslar {
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+.textReferanslar .col-4 {
+    padding: 1rem 2.5rem;
 }
 
 .nadpis {
     font-size: 1.3rem;
     text-align: center;
     padding-top: 2px;
-    
+}
+
+.nadpisReferanslar {
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 2rem;
 }
 
 .kontaktujtenas {
@@ -114,6 +164,9 @@ body, html {
     background-color: gray;
 }
 
+.row {
+    --bs-gutter-x: none;
+}
 
 @media (max-width: 574px) {
     .vpravo {
