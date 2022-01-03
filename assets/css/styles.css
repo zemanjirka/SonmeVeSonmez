@@ -51,13 +51,22 @@ body, html {
 
 .pozadiReferanslar {
     animation: transitionIn 20s;
-    background-image: url("../pics/reference5.png");
+    background-image: url("../pics/reference6.png");
     height: 100%;
     background-size: cover;
     background-position: -30px;
     background-attachment: fixed;
-    
     }
+
+.pozadiBaglanti {
+        background-color: #1d4a77;
+        height: 100%;
+    }
+
+.kontaktyContainer {
+    height: 100%;
+   
+}
 
 .oba {
     height: 70%;
@@ -95,8 +104,15 @@ body, html {
     height: 20%;
 }
 
+.kloguBaglanti {
+    height: 30%;
+    padding-top: 4%;
+    
+}
+
 
 .logo {
+    
     background-image: url("../pics/logo_na_web.png");
     background-size: 60%;
     background-repeat: no-repeat;
@@ -117,7 +133,15 @@ body, html {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 2%;
+    margin: 2%
+}
+
+.logoBaglanti {
+    background-image: url("../pics/logo_na_web_white.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
 
 }
 
@@ -154,6 +178,13 @@ body, html {
     padding-top: 2rem;
 }
 
+.textKontakty {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    height: 100%;
+}
 .kontaktujtenas {
     margin-top: 60%;
 }
@@ -166,6 +197,23 @@ body, html {
 
 .row {
     --bs-gutter-x: none;
+}
+
+.spodekKontakty {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.ikony {
+    margin-top: 10%;
+}
+
+.ikony a {
+    color: white;
+    margin: 0 4rem;
+
+   
+
 }
 
 @media (max-width: 574px) {
