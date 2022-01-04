@@ -7,6 +7,9 @@ body, html {
     from {background-position: left;}
     to {background-position: -30px;}
 }
+
+/*-------------------------------NAVBAR-------------------------------- */
+
 .navbar-light .navbar-brand{
     color: gray;
     font-family: 'Montserrat', sans-serif;
@@ -20,8 +23,6 @@ body, html {
     padding-top: 20px;
 }
 
-
-
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
      color: grey; 
      background-color: #fff;
@@ -33,7 +34,7 @@ body, html {
     background: none;
 }
 
-
+/*-------------------------------BACKGROUNDS-------------------------------- */
 .background {
     animation: transitionIn 20s;
     background-image: url("../pics/ssa.png");
@@ -63,11 +64,8 @@ body, html {
         height: 100%;
     }
 
-.kontaktyContainer {
-    height: 100%;
-   
-}
 
+    /*-------------------------------FIRST PAGE-------------------------------- */
 .oba {
     height: 70%;
     }
@@ -76,48 +74,36 @@ body, html {
     height: 100%;
 }
 
-.vsechnoReferanslar {
-    height: 100%;
-}
-
-.pozadiTextReferanslar {
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
 .vlevo {
     background-color: rgb(255, 255, 255);
     opacity: 0.8;
-    /* box-shadow: 0 0 5px 2px #ffffff;  */
-}
-
-.vlevoHakkimizda {
-    background-color: rgb(255, 255, 255);
-    opacity: 0.9;
-    /* box-shadow: 0 0 5px 2px #ffffff;  */
 }
 
 .klogu {
     height: 100%;
 }
 
-.kloguHakkimizda {
-    height: 20%;
-}
-
-.kloguBaglanti {
-    height: 30%;
-    padding-top: 4%;
-    
-}
-
-
 .logo {
-    
     background-image: url("../pics/logo_na_web.png");
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 15%;
+}
+
+.kontaktujtenas {
+    margin-top: 60%;
+}
+
+ /*-------------------------------ABOOUT US PAGE-------------------------------- */
+
+.vlevoHakkimizda {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+
+.kloguHakkimizda {
+    height: 20%;
 }
 
 .logoHakkimizda {
@@ -126,23 +112,6 @@ body, html {
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 10%;
-}
-
-.logoReferanslar {
-    background-image: url("../pics/logo_na_web.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 2%
-}
-
-.logoBaglanti {
-    background-image: url("../pics/logo_na_web_white.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-
-
 }
 
 .textHakkimizda {
@@ -155,19 +124,38 @@ body, html {
     text-align: justify;
 }
 
+.nadpis {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 2px;
+}
+
+ /*-------------------------------REFERENCES PAGE-------------------------------- */
+
+.vsechnoReferanslar {
+    height: 100%;
+}
+
+.pozadiTextReferanslar {
+    background-color: rgba(255, 255, 255, 0.9);
+}    
+
+.logoReferanslar {
+    background-image: url("../pics/logo_na_web.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 2%;
+}
+
 .textReferanslar {
     color: gray;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
 }
+
 .textReferanslar .col-4 {
     padding: 1rem 2.5rem;
-}
-
-.nadpis {
-    font-size: 1.3rem;
-    text-align: center;
-    padding-top: 2px;
 }
 
 .nadpisReferanslar {
@@ -178,6 +166,24 @@ body, html {
     padding-top: 2rem;
 }
 
+/*------------------------------CONTACT PAGE-------------------------------- */
+
+.kontaktyContainer {
+    height: 100%;
+}
+
+.kloguBaglanti {
+    height: 30%;
+    padding-top: 4%;
+}
+
+.logoBaglanti {
+    background-image: url("../pics/logo_na_web_white.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .textKontakty {
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -185,9 +191,17 @@ body, html {
     text-align: center;
     height: 100%;
 }
-.kontaktujtenas {
-    margin-top: 60%;
+
+.spodekKontakty {
+    text-align: center;
+    margin-top: 10%;
 }
+
+.ikony a {
+    color: white;
+    margin: 1rem;
+}
+/*------------------------------BOOTSTRAP ALTERNATIONS-------------------------------- */
 
 .btn {
     border-radius: 0;
@@ -199,22 +213,7 @@ body, html {
     --bs-gutter-x: none;
 }
 
-.spodekKontakty {
-    text-align: center;
-    margin-top: 10%;
-}
-
-.ikony {
-    margin-top: 10%;
-}
-
-.ikony a {
-    color: white;
-    margin: 0 4rem;
-
-   
-
-}
+/*------------------------------MEDIA-------------------------------- */
 
 @media (max-width: 574px) {
     .vpravo {
