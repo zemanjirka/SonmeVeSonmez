@@ -154,8 +154,8 @@ body, html {
     font-size: 1rem;
 }
 
-.textReferanslar .col-4 {
-    padding: 1rem 2.5rem;
+.textReferanslar .col-12 {
+    padding: 1rem 1rem;
 }
 
 .nadpisReferanslar {
@@ -201,12 +201,15 @@ body, html {
     color: white;
     margin: 1rem;
 }
+
+
 /*------------------------------BOOTSTRAP ALTERNATIONS-------------------------------- */
 
 .btn {
     border-radius: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: gray;
+    margin-top: 20px;
 }
 
 .row {
@@ -218,5 +221,14 @@ body, html {
 @media (max-width: 574px) {
     .vpravo {
       display: none;
+    }
+    .kloguReferanslar {
+      display: none;
+    }
+    .textKontakty {
+        font-size: 0.8rem;
+    }
+    .ikonyKontakty {
+        font-size: small;
     }
   }
