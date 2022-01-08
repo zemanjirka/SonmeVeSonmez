@@ -44,7 +44,7 @@ body, html {
 
 .pozadiknizky {
     animation: transitionIn 20s;
-    background-image: url("../pics/knizky14.png");
+    background-image: url("../pics/pravo3.jpg");
     background-position: -30px;
     height: 100%;
     background-size: cover;
@@ -52,7 +52,7 @@ body, html {
 
 .pozadiReferanslar {
     animation: transitionIn 20s;
-    background-image: url("../pics/reference6.png");
+    background-image: url("../pics/reference1.jpg");
     height: 100%;
     background-size: cover;
     background-position: -30px;
@@ -92,6 +92,14 @@ body, html {
     background-position-y: 15%;
 }
 
+.logoEng {
+    background-image: url("../pics/logo_na_web_ANG.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 15%;
+}
+
 .kontaktujtenas {
     margin-top: 60%;
 }
@@ -109,6 +117,14 @@ body, html {
 
 .logoHakkimizda {
     background-image: url("../pics/logo_na_web.png");
+    background-size:20%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 10%;
+}
+
+.logoHakkimizdaEng {
+    background-image: url("../pics/logo_na_web_ANG.png");
     background-size:20%;
     background-repeat: no-repeat;
     background-position: center;
