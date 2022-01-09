@@ -100,6 +100,14 @@ body, html {
     background-position-y: 15%;
 }
 
+.logoDe {
+    background-image: url("../pics/logo_na_web_NEM.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 15%;
+}
+
 .kontaktujtenas {
     margin-top: 60%;
 }
@@ -125,6 +133,14 @@ body, html {
 
 .logoHakkimizdaEng {
     background-image: url("../pics/logo_na_web_ANG.png");
+    background-size:20%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 10%;
+}
+
+.logoHakkimizdaDe {
+    background-image: url("../pics/logo_na_web_NEM.png");
     background-size:20%;
     background-repeat: no-repeat;
     background-position: center;
@@ -159,6 +175,22 @@ body, html {
 
 .logoReferanslar {
     background-image: url("../pics/logo_na_web.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 2%;
+}
+
+.logoReferanslarDe {
+    background-image: url("../pics/logo_na_web_NEM.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 2%;
+}
+
+.logoReferanslarEng {
+    background-image: url("../pics/logo_na_web_ANG.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
