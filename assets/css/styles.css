@@ -233,6 +233,20 @@ body, html {
     background-position: center;
 }
 
+.logoBaglantiEn {
+    background-image: url("../pics/logo_na_web_ANG_white.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logoBaglantiDe {
+    background-image: url("../pics/logo_na_web_NEM_white.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .textKontakty {
     color: white;
     font-family: 'Montserrat', sans-serif;
